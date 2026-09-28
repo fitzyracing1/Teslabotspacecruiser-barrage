@@ -1,2 +1,5 @@
 # Teslabotspacecruiser-barrage
-Barrage plain-language clone of fitzyracing1/Teslabotspacecruiser
+
+Barrage clone of [fitzyracing1/Teslabotspacecruiser](https://github.com/fitzyracing1/Teslabotspacecruiser).
+
+Read [listing.barrage](listing.barrage).

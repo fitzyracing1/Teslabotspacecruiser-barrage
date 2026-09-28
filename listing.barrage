@@ -1,0 +1,43 @@
+# Tesla Bot Space Cruiser
+
+> A conceptual open-source spacecraft: hex-grid panels, Optimus crew, propulsion notes, and schematics.
+
+## Purpose
+Explain TSB-01 as a study ship on paper and in files, not a flight article. Source: fitzyracing1/Teslabotspacecruiser.
+
+## How it works (plain English)
+1. Interlock hull panels on a hex grid.
+2. Place Optimus-class crew in the habitat idea.
+3. Keep propulsion and schematics next to that hull idea.
+4. Treat the whole as an open design, not a launch stack.
+
+## Key ideas
+- Hex-grid panels (tiles that lock on six sides)
+- Optimus crew (the robot crew concept)
+- Conceptual schematic (drawings and notes, not flight hardware)
+
+## The actual code
+```
+# source: fitzyracing1/Teslabotspacecruiser
+hull = hex_grid_panels
+crew = optimus
+write_schematic()
+```
+
+## Line-by-line translation
+1. hull = hex_grid_panels → “the skin is tiled hex panels”
+2. crew = optimus → “the crew idea is Optimus-class”
+3. write_schematic() → “put the drawing in the repo”
+
+## Decisions the program makes
+- If a part is named → keep it modular on the hex grid
+- If someone treats it as flight-ready → keep the conceptual label
+
+## What a person would notice
+A ship design you can read without a hangar.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the schematics in fitzyracing1/Teslabotspacecruiser.
